@@ -53,7 +53,7 @@ export default function Header() {
                 /> */}
               </div>
               <div className="hidden sm:ml-6 sm:block">
-                <div className="flex  space-x-4">
+                <div className="flex   space-x-4">
                   {/* Nav Items */}
                   {navigation.map((item) => (
                     <a

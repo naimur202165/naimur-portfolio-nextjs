@@ -1,0 +1,5 @@
+/* essential elements for tailwind css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Other styles will be here soonn */

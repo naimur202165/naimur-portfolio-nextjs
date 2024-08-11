@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Homes />
       <Hero />
+      <Homes />
       <Footer />
     </>
   );

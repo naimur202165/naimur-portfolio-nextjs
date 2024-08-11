@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="  grid grid-rows-2 grid-flow-col gap-4 bg-dark-blue p-10">
+      <div className="sm:grid sm:grid-rows-2 sm:grid-flow-col md:grid md:grid-rows-1 sm:grid-flow-col   lg:grid lg:grid-rows-1 lg:grid-flow-col gap-4 bg-dark-blue p-10">
         <div>
           <div>
             <h2 className="text-white text-4xl text-center p-2">

@@ -1,10 +1,12 @@
 import { Button } from "@headlessui/react";
+import HeroImage from "../../img/2.jpg";
 import React from "react";
+import Image from "next/image";
 
 export default function Hero() {
   return (
     <>
-      <div className="grid grid-rows-1 grid-flow-col gap-4 bg-dark-blue ">
+      <div className="grid grid-rows-1 grid-flow-col gap-4 bg-dark-blue p-10">
         <div>
           <div>
             <h2 className="text-white text-4xl text-center">Naimur Rahman</h2>
@@ -30,7 +32,11 @@ export default function Hero() {
         </div>
 
         <div>
-          <img src={"../../img/2.jpg"} alt="naimur rahman durjoy" />
+          <Image
+            className="w-80 h-auto"
+            src={HeroImage}
+            alt="Picture of the author"
+          />
         </div>
       </div>
     </>

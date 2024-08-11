@@ -2,6 +2,7 @@ import { Button } from "@headlessui/react";
 import HeroImage from "../../img/2.jpg";
 import React from "react";
 import Image from "next/image";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 export default function Hero() {
   return (
@@ -20,16 +21,20 @@ export default function Hero() {
               am also Wordpress dev
             </p>
           </div>
-          <div>
-            <Button className="bg-pink text-white   px-4 py-2 rounded">
-              say hello
+          <div className="py-4 flex justify-center">
+            <Button className="bg-pink text-white ms-1  py-3 px-4 hover:bg-white   rounded">
+              <p className="hover:text-black">Say Hello</p>
             </Button>
-            <Button>My Works</Button>
+            <Button className="bg-pink text-white py-3 px-4 mx-5 hover:bg-white   rounded">
+              <p className="hover:text-black">My Works</p>
+            </Button>
           </div>
           {/* Social */}
           <div>
             <div>follow me:</div>
-            <div>fb</div>
+            <div>
+              <FontAwesomeIcon icon="fa-brands fa-facebook" />
+            </div>
             <div>linkedin</div>
             <div>insta</div>
           </div>

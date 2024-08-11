@@ -7,6 +7,7 @@ module.exports = {
       "gray-text": "#C2C2C3",
       white: "#FFFFFF",
       pink: "#6244C5",
+      black: "rgb(0 0 0)",
     },
     fontFamily: {
       sans: ["Graphik", "sans-serif"],

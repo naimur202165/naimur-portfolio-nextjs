@@ -42,7 +42,7 @@ export default function Hero() {
           <div className="flex justify-center">
             <div className="text-white w-auto ">follow me:</div>
             <div className="flex">
-              <a href="">
+              <a href="https://www.facebook.com/naimur202164">
                 {" "}
                 <FontAwesomeIcon
                   className="w-10 h-10"
@@ -51,7 +51,7 @@ export default function Hero() {
                   style={{ marginRight: "10px" }}
                 />
               </a>
-              <a href="">
+              <a href="https://github.com/naimur202164-rony">
                 {" "}
                 <FontAwesomeIcon
                   className="w-10 h-10"
@@ -60,7 +60,7 @@ export default function Hero() {
                   style={{ marginRight: "10px" }}
                 />
               </a>
-              <a href="">
+              <a href="https://www.linkedin.com/in/naimur202164/">
                 {" "}
                 <FontAwesomeIcon
                   className="w-10 h-10"
@@ -69,7 +69,7 @@ export default function Hero() {
                   style={{ marginRight: "10px" }}
                 />
               </a>
-              <a href="">
+              <a href="https://wa.link/bymce0">
                 {" "}
                 <FontAwesomeIcon
                   className="w-10 h-10"
@@ -79,7 +79,7 @@ export default function Hero() {
                   style={{ marginRight: "10px" }}
                 />
               </a>
-              <a href="">
+              <a href="https://www.youtube.com/@naimuracademy">
                 <FontAwesomeIcon
                   className="w-10 h-10"
                   icon={faYoutube}

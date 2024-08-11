@@ -3,6 +3,15 @@ import HeroImage from "../../img/2.jpg";
 import React from "react";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+import {
+  faGithub,
+  faLinkedin,
+  faWhatsapp,
+  faYoutube,
+} from "@fortawesome/free-brands-svg-icons";
+
+// components/IconExample.js
 
 export default function Hero() {
   return (
@@ -30,13 +39,56 @@ export default function Hero() {
             </Button>
           </div>
           {/* Social */}
-          <div>
-            <div>follow me:</div>
-            <div>
-              <FontAwesomeIcon icon="fa-brands fa-facebook" />
+          <div className="flex justify-center">
+            <div className="text-white w-auto ">follow me:</div>
+            <div className="flex">
+              <a href="">
+                {" "}
+                <FontAwesomeIcon
+                  className="w-10 h-10"
+                  icon={faFacebook}
+                  color="#3b5998"
+                  style={{ marginRight: "10px" }}
+                />
+              </a>
+              <a href="">
+                {" "}
+                <FontAwesomeIcon
+                  className="w-10 h-10"
+                  icon={faGithub}
+                  color="#333"
+                  style={{ marginRight: "10px" }}
+                />
+              </a>
+              <a href="">
+                {" "}
+                <FontAwesomeIcon
+                  className="w-10 h-10"
+                  icon={faLinkedin}
+                  color="#0077b5"
+                  style={{ marginRight: "10px" }}
+                />
+              </a>
+              <a href="">
+                {" "}
+                <FontAwesomeIcon
+                  className="w-10 h-10"
+                  icon={faWhatsapp}
+                  size="2x"
+                  color="#25D366"
+                  style={{ marginRight: "10px" }}
+                />
+              </a>
+              <a href="">
+                <FontAwesomeIcon
+                  className="w-10 h-10"
+                  icon={faYoutube}
+                  size=""
+                  color="#FF0000"
+                  style={{ marginRight: "10px" }}
+                />
+              </a>
             </div>
-            <div>linkedin</div>
-            <div>insta</div>
           </div>
         </div>
 

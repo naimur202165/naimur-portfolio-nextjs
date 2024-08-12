@@ -38,13 +38,13 @@ export default function Hero() {
             </Button>
           </div>
           {/* Social */}
-          <div className="flex justify-center items-center gap-2 py-5">
+          <div className="flex justify-center items-center lg:gap-5 gap-2 py-5">
             <div className="text-white w-auto text-2xl">Soical:</div>
-            <div className="flex">
+            <div className="flex lg:gap-3">
               <a href="https://www.facebook.com/naimur202164">
                 {" "}
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-8 h-8 hover:scale-150 transition ease-in-out delay-100"
                   icon={faFacebook}
                   color="#3b5998"
                   style={{ marginRight: "10px" }}
@@ -53,7 +53,7 @@ export default function Hero() {
               <a href="https://github.com/naimur202164-rony">
                 {" "}
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-8 h-8 hover:scale-150 transition ease-in-out delay-100"
                   icon={faGithub}
                   color="#333"
                   style={{ marginRight: "10px" }}
@@ -62,7 +62,7 @@ export default function Hero() {
               <a href="https://www.linkedin.com/in/naimur202164/">
                 {" "}
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-8 h-8 hover:scale-150 transition ease-in-out delay-100"
                   icon={faLinkedin}
                   color="#0077b5"
                   style={{ marginRight: "10px" }}
@@ -71,7 +71,7 @@ export default function Hero() {
               <a href="https://wa.link/bymce0">
                 {" "}
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-8 h-8 hover:scale-150 transition ease-in-out delay-100"
                   icon={faWhatsapp}
                   size="2x"
                   color="#25D366"
@@ -80,7 +80,7 @@ export default function Hero() {
               </a>
               <a href="https://www.youtube.com/@naimuracademy">
                 <FontAwesomeIcon
-                  className="w-8 h-8"
+                  className="w-8 h-8 hover:scale-150 transition ease-in-out delay-100"
                   icon={faYoutube}
                   size=""
                   color="#FF0000"

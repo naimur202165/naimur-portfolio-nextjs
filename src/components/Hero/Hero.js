@@ -18,7 +18,7 @@ export default function Hero() {
       <div className="sm:grid sm:grid-rows-2 sm:grid-flow-col md:grid md:grid-rows-1 sm:grid-flow-col   lg:grid lg:grid-rows-1 lg:grid-flow-col gap-4 bg-dark-blue p-10">
         <div>
           <div>
-            <h2 className="text-white sm:text-2xl lg:text-5xl text-center py-2 font-bold">
+            <h2 className="text-white text-3xl    lg:text-5xl sm:text-3xl text-center py-2 font-bold">
               MD Naimur Rahman
             </h2>
             <h3 className="text-white text-center py-3">

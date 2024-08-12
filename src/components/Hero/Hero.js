@@ -12,7 +12,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 // components/IconExample.js
-
 export default function Hero() {
   return (
     <>
@@ -22,19 +21,19 @@ export default function Hero() {
             <h2 className="text-white sm:text-2xl lg:text-5xl text-center py-2 font-bold">
               MD Naimur Rahman
             </h2>
-            <h3 className="text-white text-center">
+            <h3 className="text-white text-center py-3">
               _____Teacher and & web dev
             </h3>
-            <p className="text-gray-text text-center lg: sm:py-4 font-semibold">
+            <p className="text-gray-text text-center lg:py-5 sm:py-4 font-semibold">
               I am passoinate web dev & seo expart on web.
               <br /> I am also a student of english literature
             </p>
           </div>
-          <div className="py-4 flex justify-center">
-            <Button className="bg-pink text-white ms-1  py-3 px-4 hover:bg-white   rounded">
+          <div className="py-4 flex justify-center gap-4 ">
+            <Button className="bg-pink text-white  hover:bg-white py-3 px-3  rounded">
               <p className="hover:text-black">Say Hello</p>
             </Button>
-            <Button className="bg-pink text-white py-3 px-4 mx-5 hover:bg-white   rounded">
+            <Button className="bg-pink text-white  hover:bg-white px-3   rounded">
               <p className="hover:text-black">My Works</p>
             </Button>
           </div>

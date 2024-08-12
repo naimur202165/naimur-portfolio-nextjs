@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <>
       <div className="bg-pink">
-        <div className="flex ">
+        <div className="lg:flex justify-center">
           <div className="">Image will be here</div>
           <div className="p-10">
             <div>

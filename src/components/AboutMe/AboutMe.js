@@ -1,11 +1,12 @@
 import React from "react";
-
+import signature from "../../img/signature (1).png";
+import Image from "next/image";
 export default function AboutMe() {
   return (
     <>
       <div className="bg-pink">
         <div className="lg:flex justify-center">
-          <div className="">Image will be here</div>
+          <div className="">h</div>
           <div className="p-10">
             <div>
               <h2 className="text-white lg:text-4xl sm:text-3xl text-4xl">
@@ -18,11 +19,13 @@ export default function AboutMe() {
                 discussion and collaboration.
               </p>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center  justify-center gap-3">
               <button className="bg-white p-4 rounded text-lg">
                 Download CV
               </button>
-              <h2>Signature will be here </h2>
+              <div className="h-20 w-40 flex justify-center">
+                <Image src={signature} alt="" />{" "}
+              </div>
             </div>
           </div>
         </div>

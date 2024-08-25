@@ -6,20 +6,19 @@ export default function AboutMe() {
     <>
       <div className="bg-pink">
         <div className="lg:flex justify-center">
-          <div className="">h</div>
-          <div className="p-10">
+          <div className="w-full">h</div>
+          <div className="p-10 w-full p-3">
             <div>
               <h2 className="text-white lg:text-4xl sm:text-3xl text-4xl">
                 About Me___
               </h2>
               <p className="text-gray-text text-md py-3">
-                With 10 years experience as a professional Web developer, I have
-                acquired the skills and knowledge necessary to make your project
-                a success. I enjoy every step of the design process, from
-                discussion and collaboration.
+                Hi I am Naimur Rahman . I am Student of English liteature. I
+                love to do coding. I love to develop web application on next js.
+                I also love to make web site using wordpress.
               </p>
             </div>
-            <div className="flex items-center  justify-center gap-3">
+            <div className="flex items-center  justify-center gap-10">
               <button className="bg-white p-4 rounded text-lg">
                 Download CV
               </button>

@@ -18,22 +18,22 @@ export default function Hero() {
       <div className="sm:grid sm:grid-rows-2 sm:grid-flow-col md:grid md:grid-rows-1 sm:grid-flow-col   lg:grid lg:grid-rows-1 lg:grid-flow-col gap-4 bg-dark-blue p-10">
         <div>
           <div>
-            <h2 className="text-white text-3xl    lg:text-5xl sm:text-3xl text-center py-2 font-bold">
+            <h2 className="text-white text-3xl   lg:text-6xl sm:text-3xl text-center py-2 font-bold">
               MD Naimur Rahman
             </h2>
-            <h3 className="text-white text-center py-3">
+            <h3 className="text-white text-center text-xl py-3">
               _____Teacher and & web dev
             </h3>
-            <p className="text-gray-text text-center lg:py-5 sm:py-4 font-semibold">
+            <p className="text-gray-text text-xl text-center lg:py-5 sm:py-4 font-semibold">
               I am passoinate web dev & seo expart on web.
               <br /> I am also a student of english literature
             </p>
           </div>
-          <div className="py-4 flex justify-center gap-4 ">
-            <Button className="bg-pink text-white  hover:bg-white py-3 px-3  rounded">
+          <div className="py-4 flex justify-center gap-12 ">
+            <Button className="bg-pink text-white  hover:bg-white py-5 px-6  rounded">
               <p className="hover:text-black">Say Hello</p>
             </Button>
-            <Button className="bg-pink text-white  hover:bg-white px-3   rounded">
+            <Button className="bg-pink text-white  hover:bg-white  py-5  px-6  rounded">
               <p className="hover:text-black">My Works</p>
             </Button>
           </div>
